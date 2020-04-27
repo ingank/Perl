@@ -18,4 +18,4 @@ Listen sind eindimensionale Arrays.
 `for ( 0 .. @{$list} - 1 ) { ${$list}[$_] = func_foo(${$list}[$_]; }`
 
 ##### Mehrdimensionale Arrays definieren
-`@array_a = (( 1, 2 ), ( 10, 20 ), ( 100, 200 ));
+`@array_a = (( 1, 2 ), ( 10, 20 ), ( 100, 200 ));`
