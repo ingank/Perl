@@ -1,6 +1,7 @@
 # Listen
 
-```
-# Mit allen Elementen einer referenzierten Liste etwas tun
-for ( 0 .. @{$last} - 1 ) { ${$last}[$_] =~ s/(\r\n|\r|\n)$//; }
-```
+##### Mit allen Elementen einer Liste etwas tun
+`for ( 0 .. @list - 1 ) { $list[$_] = func_foo($list[$_]; }`
+
+##### Mit allen Elementen einer referenzierten Liste etwas tun
+`for ( 0 .. @{$list} - 1 ) { ${$list}[$_] = func_foo(${$list}[$_]; }`
