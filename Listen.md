@@ -1,16 +1,20 @@
-# Listen
+# Listen und Arrays
 
-Wenn wir von **Listen** sprechen, meinen wir in speziellen Ausprägungen auch **Arrays** und auf Listen basierende **Datenstrukturen**.
+Eine Liste ist in Perl als geordnete Kette aus skalaren Elementen definiert.
 
-Eine **Liste** ist eine zusammenhängende Kette von Elementen.
+Ein Array wiederum ist als namentlicher Platzhalter (Variable) für eine Liste definiert.
 
-Auf Listenelemente kann mit Hilfe eines Indizes zugegriffen werden.
+Beispiel:  
+Erzeuge ein Array mit dem Namen 'array'.
+Erzeuge daraufhin eine Liste,
+fülle sie mit den Zahlenwerten 1 bis 5 und
+weise sie dann dem Array zu:
 
-Listenelemente können Verweise auf andere Listen sein.
+`@array = (1, 2, 3);`
 
-**Arrays** sind mehrdimensionale Listen. In ihnen sind, je nach Anzahl der Dimensionen, immer die gleiche Anzahl an Verweisen auf andere Listen innerhalb einer Ebene vorhanden. Eine Wertetabelle der Elemente wird (in der Vorstellung) deshalb beispielsweise immer eine vollständige Rechteckform (zweidimensional) oder Quaderform (dreidimensional) ergeben.
+oder
 
-Auch unregelmäßige **Datenstrukturen** können aus einer ungleichmäßigen Verteilung von Datenelementen und Verweisen erstellt werden. Um Verwechslungen zu vermeiden, sollten diese nicht als Array bezeichnet werden.
+`@array = (1 .. 5);`
 
 ##### Listen definieren
 `@list_a = ( 1, 2, 3 );`  
@@ -29,5 +33,5 @@ Auch unregelmäßige **Datenstrukturen** können aus einer ungleichmäßigen Ver
 ##### Arrays definieren
 `@array_a = (( 1, 2 ), ( 10, 20 ), ( 100, 200 ));`
 
-##### Datenstrukturen definieren
-`@struc_a = ( 1, 2, (30, 40, 50), 7, 8 );`
+##### Datenstrukturen (List of Foo) definieren
+`@struc_a = ( 1, 2, ('Alpha', 'Beta', 'Gamma'), 7, 8 );`
