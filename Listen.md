@@ -1,6 +1,6 @@
 # Listen
 
-Wenn wir von Listen sprechen, meinen wir auch Arrays und auf Listen basierende Datenstrukturen.
+Wenn wir von Listen sprechen, meinen wir in speziellen Ausprägungen auch Arrays und auf Listen basierende Datenstrukturen.
 
 Eine **Liste** ist eine zusammenhängende Kette von Elementen.
 
