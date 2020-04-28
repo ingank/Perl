@@ -1,4 +1,6 @@
-# Listen und Arrays
+# Listen
+
+Wenn wir von Listen sprechen, meinen wir auch Arrays und auf Listen basierende Datenstrukturen.
 
 Eine **Liste** ist eine zusammenhängende Kette von Elementen.
 
